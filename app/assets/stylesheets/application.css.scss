@@ -11,7 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
- *= require_self
+ *= require_self 
  */
 
  $white_opaque: rgba(50, 50, 50, .3);
@@ -30,12 +30,18 @@ body {
   font-family: 'Lato', sans-serif;
 }
 #title {
-	width: 100%;
+	width: 90%;
+	height: 25%;
 	padding: 0px;
-	margin: 0px;
+	margin: 0 auto;
+	background:  #111111;
+	border-radius: 7px;
 	color: #4F98BA;
 	text-align: center;
-	h1 { font-size: 50px; }
+	h1 { 
+		font-size: 50px; 
+		padding-top: 40px;
+		}
 	h3 { color: #C1C1C1; }
 }
 
